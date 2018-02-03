@@ -1,4 +1,6 @@
-class Kb {
+import ActivePanel from './ActivePanel'
+
+class Kb extends ActivePanel{
   keyCode = {
     'BACK': 8,
     'ENTER': 13,
@@ -9,10 +11,9 @@ class Kb {
   }
 
   constructor (dom) {
-    // super()
+    super()
     this.dom = dom
     this.bindKeyBoard = this.bindKeyBoard.bind(this)
-    this.init()
   }
 
   init () {

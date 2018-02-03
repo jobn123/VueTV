@@ -49,6 +49,10 @@ export default {
   props: ['hd'],
   created () {
     let hkb = new Kb('home')
+    hkb.init()
+  },
+  destroyed () {
+    
   },
   computed: {
     leftData () {
