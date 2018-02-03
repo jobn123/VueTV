@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # vue-tv
 
 > A Vue.js project
@@ -19,3 +20,7 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+# VueTV
+VueTV
+>>>>>>> 9c1891fb426015d3fd87185a0284e2bce720689f
